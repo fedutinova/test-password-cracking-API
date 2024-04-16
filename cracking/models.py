@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-
 class CrackedPassword(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="cracked_passwords")
     md5_hash = models.CharField(max_length=32)  # MD5 length is 32 symbols
