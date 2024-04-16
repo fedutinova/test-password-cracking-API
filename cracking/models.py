@@ -3,11 +3,11 @@ from django.contrib.auth.models import User
 
 
 class CrackedPassword(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="cracked_passwords")
-    md5_hash = models.CharField(max_length=32)  # MD5 length is 32 symbols
+    md5_hash = models.CharField(max_length=32)  # MD5 hashes have a length of 32 characters
     submitted_at = models.DateTimeField(auto_now_add=True)
     is_cracked = models.BooleanField(default=False)
-    cracked_password = models.CharField(max_length=5, blank=True, null=True) # due 5 symbols limit of password
+    cracked_password = models.CharField(max_length=15, blank=True, null=True)
 
     def __str__(self):
         return f"{self.md5_hash} by {self.user.username}"
+
