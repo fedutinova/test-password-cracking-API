@@ -3,7 +3,7 @@
 
 ## Начало работы
 
-1. Клонируйте репозиторий на вашу локальную машину:
+1. Клонируйте репозиторий:
    ```sh
    git clone https://github.com/fedutinova/djangoProject
    cd djangoProject
