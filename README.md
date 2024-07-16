@@ -9,8 +9,8 @@ Note: This is a test assignment for a job application.
 Clone the repository:
 
 ```bash
-git clone https://github.com/fedutinova/djangoProject
-cd djangoProject
+git clone https://github.com/fedutinova/test-password-cracking-API
+cd test-password-cracking-API
 ```
 
 Run Docker containers:
