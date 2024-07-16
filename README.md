@@ -1,18 +1,24 @@
-# API для взлома паролей с использованием Django REST Framework
-Это проект API для взлома паролей с использованием Django REST Framework. Он включает в себя регистрацию пользователей, отправку и взлом хэшированных паролей, а также отслеживание истории отправок паролей.
+# Password Cracking API using Django REST Framework
 
-## Начало работы
+This project is an API for password cracking using the Django REST Framework. It includes user registration, submission and cracking of hashed passwords, and tracking the history of password submissions.
 
-1. Клонируйте репозиторий:
-   ```sh
-   git clone https://github.com/fedutinova/djangoProject
-   cd djangoProject
-   ```
+Note: This is a test assignment for a job application.
 
-2. Запустите Docker контейнеры:
-   ```sh
-   docker-compose up --build
-   ```
+## Getting Started
 
-После завершения сборки, приложение будет доступно по адресу `http://0.0.0.0:8000/`.
+Clone the repository:
 
+```bash
+git clone https://github.com/fedutinova/djangoProject
+cd djangoProject
+```
+
+Run Docker containers:
+
+```bash
+docker-compose up --build
+```
+
+After the build is complete, the application will be available at `http://0.0.0.0:8000/`.
+
+---
